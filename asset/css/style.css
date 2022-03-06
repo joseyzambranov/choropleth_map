@@ -44,6 +44,7 @@ body{
   flex-direction: column;
   font-family:"Poppins" ;
   color: var(--title-color);
+  
 }
 
 svg {
@@ -73,4 +74,7 @@ svg {
   
   .tooltip p {
     margin: 5px;
+  }
+  .leg{
+    padding:10px;
   }

@@ -24,8 +24,8 @@ for (var i = edumin;i<=edumax;i+=step){
     color.push(colorScale(i))
 }
 
-const width=860;
-const height=500;
+const width=960;
+const height=550;
 
 const path = d3.geoPath();
 const data = topojson.feature(countie,countie.objects.counties).features
@@ -68,7 +68,7 @@ let lengWidth = 500
 let lengHeight = 30
 
 let lengRectWidth = lengWidth/ color.length
-const legend = d3.select("body")
+const legend = d3.select(".leg")
                .append("svg")
                .attr("id","legend")
                .attr("width",lengWidth)
